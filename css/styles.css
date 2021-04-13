@@ -1,0 +1,398 @@
+/* Header */
+
+#navbar {
+  display:flex;
+  justify-content:space-between;
+  background-color:#3f795e;
+  height: 90px;
+  /* margin: 10px 15px; */
+}
+
+#navbar img {
+  height: 100%;
+  margin-left: 20px;
+}
+
+#navbar .nav-list {
+  display:flex;
+  align-items:center;
+  list-style:none;
+  margin-right: 20px;
+}
+
+#navbar .nav-list .nav-item {
+  margin-right: 20px;
+}
+
+#navbar .nav-list .nav-item a {
+  text-decoration:none;
+  color:white;
+}
+
+#navbar .nav-list .nav-item a:hover {
+  color:yellow;
+}
+
+/* Section home-details */
+#home-details {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+#home-details h1 {
+  margin-bottom: 20px;
+}
+
+#home-details p {
+  margin: 20px 500px 0 0;
+  text-align:justify;
+  line-height: 1.5;
+}
+
+/* Section home region */
+#home-region h2 {
+  margin: 50px 0 20px 0;
+}
+
+#home-region .section-description {
+  margin: 25px 0 20px 0;
+  text-align:left;
+  color:#808080;
+  font-size: 15px;
+}
+
+#home-region .region-selection {
+  margin-top: 50px;
+  display:flex;
+  justify-content:center;
+}
+
+#home-region .region-states {
+  width:150px;
+  justify-content:center;
+  text-align:center;
+  list-style: none;
+  color: #002776;
+}
+
+#home-region .region-states .states-item {
+  margin-top:10px;
+}
+
+#home-region .region-states a {
+  text-decoration:uderline;
+  color: #002776;;
+}
+
+
+/* Section hist-ways */
+
+#hist-ways .hist-list {
+  background-color:#FFFF;
+  margin: 50px 0 0 0;
+  display:flex;
+  justify-content:center;
+}
+
+#hist-ways h2 {
+  margin: 50px 0 20px 0;
+}
+
+#hist-ways h3 {
+  margin: 25px 0 20px 0;
+  text-align:left;
+  color:#808080;
+  font-size: 15px;
+}
+
+
+#hist-ways .hist-list .hist-item {
+  width: 200px;
+  border-style: solid;
+  border-width: 2px;
+  margin-right:50px;
+}
+
+#hist-ways .hist-list .hist-item:hover {
+  transform: scale(1.3);
+}
+
+#hist-ways .hist-list .hist-item img {
+  width: 200px;
+}
+
+#hist-ways .hist-list .hist-item .hist-name {
+  margin-top:20px;
+  text-align:center;
+}
+
+#hist-ways .hist-list .hist-item .hist-name a {
+  text-decoration: none;
+  color: #002776;
+}
+
+
+/* Section form-contact */
+
+#form-contact h2 {
+  margin: 50px 0 20px 0;
+}
+
+/* #form-contact .form .form-item {
+  font-weight: bold;
+  border-style: solid;
+  border-width: 1px;
+  margin: 5px 0 5px 0;
+  width: 60%;
+} */
+
+#form-contact .form input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+/* --- MINAS GERAIS --- */
+#estado-geral h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#estado-geral p {
+  margin: 20px 500px 0 0;
+  text-align:justify;
+}
+
+#trilha-desc h2 {
+  margin: 50px 0 20px 0;
+}
+
+.trilhas-lista {
+  display:flex;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.trilhas-lista .trilha-item {
+  /* background-color:green; */
+  margin-right:30px;
+  width: 150px;
+  height:250px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 15px;
+}
+
+.trilhas-lista .trilha-item:hover {
+  transform: scale(1.3);
+}
+
+.trilhas-lista .trilha-item img {
+  width:100%;
+  border-radius:15px;
+}
+
+
+/* .trilhas-lista .trilha-item img:hover {
+  width: 500px;
+  z-index: 2;
+} */
+
+.trilhas-lista .trilha-item .item-name {
+  margin-top: 10px;
+  text-align: center;
+}
+
+
+/* MG - CAMINHOS */
+.description-title h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.description-title .description-details {
+  margin: 20px 50px 0 0;
+  text-align:justify;
+}
+
+.cities-section h2 {
+  margin: 50px 0 20px 0;
+}
+
+.cities-section h3 {
+margin: 25px 0 20px 0;
+text-align:left;
+color:#808080;
+font-size: 15px;
+}
+
+.cities-section li {
+  list-style: none;
+  font-size: larger;
+  margin: 0 0 10px 50px;
+}
+
+.cities-information {
+  width: 100%;
+  border: 1px solid #000;
+}
+
+.cities-information td {
+  font-size: 100%;
+  text-align: center;
+}
+
+/* .cities-information td, .cities-information th {
+  border: 1px solid #000;
+} */
+
+.cities-information .city-name {
+  font-weight:bolder;
+}
+
+.cities-information .city-name a {
+  text-decoration: none;
+  color: black;
+}
+
+.cities-information tr:nth-child(even) {
+  background-color: #c5e1a5;
+}
+
+.cities-information tr:hover {
+  background-color: yellow;
+}
+
+
+/* --MG TRILHA DOS INCOFIDENTES -- */
+
+
+
+
+
+
+/*-----------------------------------*/
+
+
+/* ---MAPA INTERATIVO BRASIL--- */
+#map {
+  display: none;
+}
+
+#map .state {
+  cursor: pointer;
+}
+
+#map .state .shape {
+  cursor: pointer;
+  -width: 0;
+}
+
+#map .state .label_icon_state {
+  fill: #fff;
+  font-family: Arial;
+  font-size: 11px;
+  line-height: 12px;
+  font-weight: normal;
+}
+
+#map .state .label_state {
+  display: none;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+}
+
+#map .state:hover .label_state,
+#map .state.hover .label_state {
+  display: block;
+}
+
+#map .model-green .state .shape {
+  fill: #6cb361;
+}
+
+#map .model-green .state .shape-no-content {
+  fill: #c5e1a5;
+}
+
+#map .model-green .state .icon_state {
+  fill: #10592f;
+}
+
+#map .model-green .state .label_icon_state {
+  fill: #fff;
+}
+
+#map .model-green .state .label_state {
+  fill: #666;
+}
+
+#map .model-green .state:hover .shape,
+#map .model-green .state.hover .shape {
+  fill: #2d68b2;
+}
+
+#map .model-green .state:hover .icon_state,
+#map .model-green .state.hover .icon_state {
+  fill: #5a95ce;
+}
+
+#map .model-orange .state .shape {
+  fill: #fd7132;
+}
+
+#map .model-orange .state .icon_state {
+  fill: #6cb361;
+}
+
+#map .model-orange .state .label_icon_state {
+  fill: #fff;
+}
+
+#map .model-orange .state .label_state {
+  fill: #666;
+}
+
+#map .model-orange .state:hover .shape,
+#map .model-orange .state.hover .shape {
+  fill: #c93f04;
+}
+
+#map .model-orange .state:hover .icon_state,
+#map .model-orange .state.hover .icon_state {
+  fill: #10592f;
+}
+
+#map .model-darkgreen .state .shape {
+  fill: #366823;
+}
+
+#map .model-darkgreen .state .icon_state {
+  fill: #2779c6;
+}
+
+#map .model-darkgreen .state .label_icon_state {
+  fill: #fff;
+}
+
+#map .model-darkgreen .state .label_state {
+  fill: #666;
+}
+
+#map .model-darkgreen .state:hover .shape,
+#map .model-darkgreen .state.hover .shape {
+  fill: #4a8c31;
+}
+
+#map .model-darkgreen .state:hover .icon_state,
+#map .model-darkgreen .state.hover .icon_state {
+  fill: #5a95ce;
+}
