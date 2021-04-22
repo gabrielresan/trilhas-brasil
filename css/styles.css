@@ -396,3 +396,44 @@ font-size: 15px;
 #map .model-darkgreen .state.hover .icon_state {
   fill: #5a95ce;
 }
+
+
+
+/* ----------------------------- */
+/* RESPONSIVE STYLE */
+
+@media screen and (max-width:1000px) {
+  #navbar {
+    display: block;
+    width: 100%;
+  }
+
+  #navbar .nav-list {
+    background-color: #3f795e;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  #home-details {
+    margin-top: 50px;
+  }
+
+  #home-details p {
+    width: 100%;
+    margin: 20px 0 0 0;
+    word-wrap: break-word;
+  }
+  main h3 {
+    width: 100%;
+    word-wrap: break-word;
+  }
+  #hist-ways .hist-list {
+    width: 100%;
+    display: block;
+  }
+  #hist-ways .hist-list .hist-item {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
